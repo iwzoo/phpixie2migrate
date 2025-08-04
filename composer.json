@@ -1,0 +1,26 @@
+{
+    "name": "phpixie2/migrate",
+    "description": "Migration library for PHPixie",
+    "keywords": ["migrate"],
+    "homepage": "https://github.com/iwzoo/phpixie2migrate",
+    "type": "library",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "iwzoo",
+            "homepage": "https://github.com/iwzoo"
+        }
+    ],
+    "require": {
+        "phpixie2/db": "2.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"PHPixie": "classes/"}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "forked-from": "phpixie/migrate"
+    }
+}
